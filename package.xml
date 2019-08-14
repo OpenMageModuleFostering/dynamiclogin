@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>dynamiclogin</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">osl-3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>dynamiclogin</summary>
+    <description>dynamiclogin</description>
+    <notes>dynamiclogin</notes>
+    <authors><author><name>evan wang</name><user>evanwang</user><email>lanqiaowangxin@gmail.com</email></author></authors>
+    <date>2013-04-26</date>
+    <time>08:45:37</time>
+    <contents><target name="magecommunity"><dir name="SF"><dir name="Jsgetphp"><dir name="controllers"><file name="LoginController.php" hash="1582fc3ba1eda11175ea3c3b0260802e"/></dir><dir name="etc"><file name="config.xml" hash="7ea0f8cce12e1a4c1d0d4b9f998e92fc"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="SF_Jsgetphp.xml" hash="2da4e0edcc6189388819973db6860e95"/></dir></target><target name="mage"><dir name="app"><dir name="design"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="jsgetphp"><file name="js.phtml" hash="09a69f5ae5c37cad8c37e698a29ad557"/><file name="jsgetphp.phtml" hash="64bde6af5b2287059ef4375d6e8e0afa"/><file name="jslogin.phtml" hash="cd4b5e0cfc4b66014453e498c9c645ad"/></dir></dir><dir name="layout"><file name="jsgetphp.xml" hash="81f3a6fff2e9c7d61626a9efbb6ea6fb"/></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

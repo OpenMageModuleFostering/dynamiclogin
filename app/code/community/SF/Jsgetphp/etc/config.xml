@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<SF_Jsgetphp>
+			<version>1.0.0</version>
+		</SF_Jsgetphp>
+	</modules>	    
+	 <frontend>
+		<routers>
+			<jsgetphp>
+				<use>standard</use>
+				<args>
+					<module>SF_Jsgetphp</module>
+					<frontName>jsgetphp</frontName>
+				</args>
+			</jsgetphp>
+		</routers>
+		<layout>
+			<updates>
+				<jsgetphp>
+					<file>jsgetphp.xml</file>
+				</jsgetphp>
+			</updates>
+		</layout>
+	</frontend>
+</config>

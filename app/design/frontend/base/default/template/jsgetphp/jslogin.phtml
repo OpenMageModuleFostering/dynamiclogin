@@ -1,0 +1,12 @@
+<?php
+$islogin=Mage::getModel('customer/session')->isLoggedIn();
+if($islogin){
+?>
+	<a href="<?php echo Mage::getBaseUrl().'customer/account/logout/' ?>"><?php echo $this->__("logout")?></a>
+<?php
+}else{
+?>
+	<a href="<?php echo Mage::getBaseUrl().'customer/account/login/' ?>"><?php echo $this->__("login")?></a>
+<?php
+}
+?>

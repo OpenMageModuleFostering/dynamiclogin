@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/dynamiclogin",
+    "type": "magento-module",
+    "license": "osl-3.0",
+    "homepage": "",
+    "description": "dynamiclogin",
+    "authors": [
+    {
+        "name": "evan wang",
+        "email": "lanqiaowangxin@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

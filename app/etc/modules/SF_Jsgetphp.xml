@@ -1,0 +1,8 @@
+<config>
+	<modules>
+		<SF_Jsgetphp>
+			<active>true</active>
+			<codePool>community</codePool>
+		</SF_Jsgetphp>
+	</modules>
+</config>
