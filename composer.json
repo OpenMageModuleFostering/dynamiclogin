@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/dynamiclogin",
+    "name": "openmage-module-fostering\/dynamiclogin",
     "type": "magento-module",
-    "license": "osl-3.0",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "dynamiclogin",
     "authors": [
